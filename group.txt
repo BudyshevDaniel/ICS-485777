@@ -1,0 +1,15 @@
+Bykova, 28
+Bondarenko, 27
+Bydyshev, 14
+Zvirkovskiy, 25
+Kindratenko, 27
+Krasnyaschikh, 18
+Omelchenko, 27
+Romanenko, 28
+Ruban, 16
+Sadovskiy, 22
+Tevseev, 20
+Chumak, 25
+Shelestuk, 12
+Yurchenko, 25
+12345
