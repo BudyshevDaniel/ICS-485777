@@ -1,0 +1,17 @@
+import numpy as np
+import matplotlib.pyplot as plt
+import pylab
+
+
+text = str("Листя дуба велике, має різні форми: зубчасту, лопатеву. Крона пірамідальна, розлога, велика.")
+
+def count_letters():
+    alphabet = ['а', 'б', 'в', 'г', 'д', 'е', 'є', 'ж', 'з', 'и', 'і','ї', 'й', 'к', 'л', 'м', 'н', 'о', 'п', 'р',]
+
+    for i in range(0, len(alphabet)):
+        xdata = [alphabet[i]]
+        ydata = [text.count(alphabet[i])]
+        pylab.bar(xdata, ydata)
+    pylab.title("Літери у тексті")
+    pylab.show()
+count_letters()
